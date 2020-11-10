@@ -1,0 +1,229 @@
+    /* ここから下に記載していく */
+    body{
+        width: 1200px;
+    } 
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header_nav li{
+        margin-left: 40px;
+    }
+
+    .mainvisual{
+        height: 400px;
+        background: url("../img/mainbg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mainvisual_title{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 200px; 
+    }
+
+    .mainvisual_subtitle{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .about {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    h3.about_title {
+        color: crimson;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p.about_subtitle {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .about_text{
+        margin-bottom: 20px;
+    }
+
+    .imageBox {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .imageBox p{
+        width : 25%;
+    }
+
+    .imageBox p img{
+        width : 100%;
+    }
+
+    .course {
+        margin: 50px 0;
+    }
+
+    .course_title {
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .course_text {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+
+    .course_contents {
+        background-color: #fafafa;
+    }
+
+    .course1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .course1_text {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .course1_title {
+        font-size: 25px;
+        font-weight: bold;
+        color: #222222;
+    }
+
+    .course1_description {
+        font-size: 15px;
+        font-weight: normal;
+        color: #222222;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 50px;
+        max-width: 480px;
+    }
+
+    .course2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .course2_text {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .course2_title {
+        font-size: 25px;
+        font-weight: bold;
+        color: #222222;
+    }
+
+    .course2_description {
+            font-size: 15px;
+            font-weight: normal;
+            color: #222222;
+            text-align: left;
+            padding-top: 40px;
+            padding-left: 50px;
+            max-width: 480px;
+        }
+   
+        .course3 {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .course3_text {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            height: 400px;
+        }
+    
+        .course3_title {
+            font-size: 25px;
+            font-weight: bold;
+            color: #222222;
+        }
+    
+        .course3_description {
+                font-size: 15px;
+                font-weight: normal;
+                color: #222222;
+                text-align: left;
+                padding-top: 40px;
+                padding-left: 50px;
+                max-width: 480px;
+            }
+
+
+
+    h3.news_title {
+        color: yellow;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p.news_subtitle {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    ul.newsList {
+        display: flex;
+        justify-content: space-between;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    li.newsList_item {
+        width: 300px;
+    }   
+
+    .ACCESS {
+        background-color: #fafafa;
+    }
+
+    h3.access_title {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p.access_subtitle {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    h3.contact_title {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p.contact_subtitle {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
